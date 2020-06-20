@@ -5,7 +5,7 @@ FF = gfortran
 CFLAGS = -g -c -O3 -fopenmp -w -L/usr/local/lib 
 LFLAGS = -lm -O3 -fopenmp -lgsl -lgslcblas -llapack
 
-PROGRAM = probe-prog
+PROGRAM = prog-tester
 
 
 MODULOSC = $(PROGRAM).c libraries.c
